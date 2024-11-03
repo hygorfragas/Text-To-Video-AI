@@ -17,7 +17,7 @@ if __name__ == "__main__":
     parser.add_argument("topic", type=str, help="The topic for the video")
 
     args = parser.parse_args()
-    SAMPLE_TOPIC = args.topic
+    SAMPLE_TOPIC = "O poder a inteligencia artificial em 2024"
     SAMPLE_FILE_NAME = "audio_tts.wav"
     VIDEO_SERVER = "pexel"
 
