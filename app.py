@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 # Código para enviar requisição para a API
 def send_video_request(topic):
-    url = "http://localhost:5000/generate-video"  # Altere para a URL correta se estiver em produção
+    url = "text-to-video-ai-production.up.railway.app/generate-video"  # Altere para a URL correta se estiver em produção
     payload = {
         "topic": topic
     }
